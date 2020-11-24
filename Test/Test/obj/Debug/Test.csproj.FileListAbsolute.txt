@@ -8,3 +8,14 @@ C:\Users\demon\source\repos\Test\Test\obj\Debug\Test.csproj.GenerateResource.cac
 C:\Users\demon\source\repos\Test\Test\obj\Debug\Test.exe
 C:\Users\demon\source\repos\Test\Test\obj\Debug\Test.pdb
 C:\Users\demon\source\repos\Test\Test\obj\Debug\Test.Test1.resources
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\bin\Debug\Test.exe.config
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\bin\Debug\Test.exe
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\bin\Debug\Test.pdb
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.Form1.resources
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.Test1.resources
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.exe
+D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.pdb

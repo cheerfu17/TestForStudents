@@ -11,10 +11,15 @@ using System.IO;
 
 namespace Test
 {
+
     public partial class Test1 : Form
     {
+
+
+        Form1 f = new Form1();
+
         //путь будет слетать, нужно будет что-то делать с этим
-        string filePath = @"C:\Users\demon\source\repos\Test\Test\Score.txt";
+        string filePath = @"D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\score.txt";
 
         int flag = 1;
 
@@ -22,6 +27,7 @@ namespace Test
         int eq = 0; // сюда записываются правильные ответы
         int score = 0;
         int rCheck = 0;
+
         public Test1()
         {
 
@@ -30,11 +36,12 @@ namespace Test
             Thame1 t = new Thame1(label1, radioButton1, radioButton2, radioButton3, radioButton4, flag, button1);
             eq = t.rightAnswer;
 
+            f.Close();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-         
             //сравнивание правильного ответа и выбранной радиокнопкой
             if (eq == rCheck)
             {
@@ -49,11 +56,10 @@ namespace Test
 
                 //запись результатов в txt
                 File.AppendAllText(filePath, $"В тесте 1 вы набрали {score} баллов\n");
+
+                f.DataUpdate();
                 //закрытие формы
                 this.Close();
-
-
-
             }
 
 

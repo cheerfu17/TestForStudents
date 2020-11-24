@@ -16,23 +16,15 @@ namespace Test
         //думал понадобиться, но похоже это нужно будет дропнуть
         int flag = 0;
 
-        
+        string filePath = @"D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\score.txt";
 
         //названия тем
         public string[] themes = { "test1", "test2", "test3", "test4", "test5", "test6" };
         
         public Form1()
         {
-            //подключение txt файла
-            string filePath = @"C:\Users\demon\source\repos\Test\Test\Score.txt";
-            //импорт строк из файла в массив
-            string[] readText = File.ReadAllLines(filePath);
-            
             InitializeComponent();
-            //запись тем в listbox
-            listBox1.Items.AddRange(themes);
-            //запись результатов в listbox
-            listBox2.Items.AddRange(readText);
+            DataUpdate();
         }
 
         //запуск выбранного пользователем теста, пока только один
@@ -45,19 +37,38 @@ namespace Test
 
             switch(nTest)
             {
-                case 1:
-                    {
-                        t1.Show();
-                        break;
-                    }
+            case 1:
+                {
+                    t1.Show();
+                    break;
+                }
             }
         }
 
-        //потом удалю, или удалите кто-нибудь...
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
-            
+            DataUpdate();
+        }
 
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText(filePath, "");
+            listBox2.Items.Clear();
+        }
+
+        public void DataUpdate()
+        {
+            //подключение txt файла
+            
+            //импорт строк из файла в массив
+            string[] readText = File.ReadAllLines(filePath);
+            //запись тем в listbox
+            listBox1.Items.Clear();
+            listBox1.Items.AddRange(themes);
+            //запись результатов в listbox
+            listBox2.Items.Clear();
+            listBox2.Items.AddRange(readText);
         }
     }
 }
