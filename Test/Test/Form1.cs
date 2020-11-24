@@ -19,15 +19,19 @@ namespace Test
         
 
         //названия тем
-        public string[] quastions = { "test1", "test2", "test3", "test4", "test5", "test6" };
+        public string[] themes = { "test1", "test2", "test3", "test4", "test5", "test6" };
         
         public Form1()
         {
+            //подключение txt файла
             string filePath = @"C:\Users\demon\source\repos\Test\Test\Score.txt";
+            //импорт строк из файла в массив
             string[] readText = File.ReadAllLines(filePath);
             
             InitializeComponent();
-            listBox1.Items.AddRange(quastions);
+            //запись тем в listbox
+            listBox1.Items.AddRange(themes);
+            //запись результатов в listbox
             listBox2.Items.AddRange(readText);
         }
 
@@ -35,6 +39,7 @@ namespace Test
         private void button1_Click(object sender, EventArgs e)
         {
             Test1 t1 = new Test1();
+            //берет значение индекса активной строки в listbox, потом используется для выбора темы
             int nTest = listBox1.SelectedIndex + 1;
 
 

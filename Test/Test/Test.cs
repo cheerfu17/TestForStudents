@@ -17,7 +17,9 @@ namespace Test
         string filePath = @"C:\Users\demon\source\repos\Test\Test\Score.txt";
 
         int flag = 1;
-        int eq = 0;
+
+        
+        int eq = 0; // сюда записываются правильные ответы
         int score = 0;
         int rCheck = 0;
         public Test1()
@@ -40,30 +42,34 @@ namespace Test
             }
             //ничего лучше и проще для проверки на конец теста придумать не мог, пока так
             if (button1.Text == "Закончить тест")
-            {
+            {   
+                //показывает сколько правильных ответов дал пользователь
                 MessageBox.Show($"Вы ответили правильно на {score} вопросов");
 
 
-                //запись результатов
+                //запись результатов в txt
                 File.AppendAllText(filePath, $"В тесте 1 вы набрали {score} баллов\n");
-
+                //закрытие формы
                 this.Close();
 
 
 
             }
 
+
             flag += 1;
+
+            // В конструктор передаются необходимые ссылки на объекты с флагом, дальше конструктор обрабатывает флаг и направляет на нужный вопрос
             Thame1 t = new Thame1(label1, radioButton1, radioButton2, radioButton3, radioButton4, flag, button1);
             eq = t.rightAnswer;
-
+            //отладка
             MessageBox.Show(eq + " " + rCheck + " " + score);
 
         }
 
 
         //блок для определения выбранной радио-кнопки
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)  
         {
             rCheck = 1;
         }
