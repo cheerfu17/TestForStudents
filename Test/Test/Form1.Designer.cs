@@ -50,7 +50,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(40, 31);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(248, 108);
+            this.listBox1.Size = new System.Drawing.Size(248, 121);
             this.listBox1.TabIndex = 1;
             // 
             // listBox2
@@ -77,7 +77,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 39);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Удалить резултаты";
+            this.button2.Text = "Удалить результаты";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 

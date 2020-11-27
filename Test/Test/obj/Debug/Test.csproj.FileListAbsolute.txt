@@ -19,3 +19,15 @@ D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.cspr
 D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.exe
 D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\obj\Debug\Test.pdb
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Debug\Test.exe.config
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Debug\Test.exe
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Debug\Test.pdb
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Form1.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test1.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.csproj.GenerateResource.cache
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.exe
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.pdb
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test2.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test3.resources
