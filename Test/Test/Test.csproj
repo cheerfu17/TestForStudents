@@ -72,6 +72,18 @@
     <Compile Include="Test1.Designer.cs">
       <DependentUpon>Test1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test4.Designer.cs">
+      <DependentUpon>Test4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test5.Designer.cs">
+      <DependentUpon>Test5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Thame1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +91,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Theme3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme5.cs">
       <SubType>Form</SubType>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
@@ -101,6 +119,12 @@
     </Compile>
     <EmbeddedResource Include="Test1.resx">
       <DependentUpon>Test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test4.resx">
+      <DependentUpon>Test4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test5.resx">
+      <DependentUpon>Test5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

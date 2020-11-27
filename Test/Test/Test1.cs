@@ -19,8 +19,7 @@ namespace Test
         Form1 f = new Form1();
 
         //путь будет слетать, нужно будет что-то делать с этим
-        string filePathCollege = @"D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\score.txt";
-        string filePathHome = @"D:\Project\C#\TestForStudents-main\Test\Test\score.txt";
+
         string filePath = "";
 
         int flag = 1;
@@ -34,7 +33,7 @@ namespace Test
         {
 
             InitializeComponent();
-            filePath = filePathHome;
+            filePath = f.GetPath() + @"score.txt";
             //как сделать иначе хз, но это по любому костыль
             Theme1 t = new Theme1(label1, radioButton1, radioButton2, radioButton3, radioButton4, flag, button1);
             eq = t.rightAnswer;

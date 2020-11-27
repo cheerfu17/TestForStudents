@@ -31,3 +31,5 @@ D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.exe
 D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.pdb
 D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test2.resources
 D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test3.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test4.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Debug\Test.Test5.resources

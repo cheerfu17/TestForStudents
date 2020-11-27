@@ -16,8 +16,7 @@ namespace Test
         //думал понадобиться, но похоже это нужно будет дропнуть
         int flag = 0;
 
-        string filePathCollege = @"D:\bin\student\CheerfulFolder\TestForStudents-main\Test\Test\score.txt";
-        string filePathHome = @"D:\Project\C#\TestForStudents-main\Test\Test\score.txt";
+
         string filePath = "";
 
         //названия тем
@@ -26,7 +25,7 @@ namespace Test
         public Form1()
         {
             InitializeComponent();
-            filePath = filePathHome;
+            filePath = GetPath() + @"Score.txt";
             DataUpdate();
         }
 
@@ -36,6 +35,8 @@ namespace Test
             Test1 t1 = new Test1();
             Test2 t2 = new Test2();
             Test3 t3 = new Test3();
+            Test4 t4 = new Test4();
+            Test5 t5 = new Test5();
             //берет значение индекса активной строки в listbox, потом используется для выбора темы
             int nTest = listBox1.SelectedIndex + 1;
 
@@ -50,6 +51,12 @@ namespace Test
                 break;
             case 3:
                 t3.Show();
+                break;
+            case 4:
+                t4.Show();
+                break;
+            case 5:
+                t5.Show();
                 break;
             }
         }
