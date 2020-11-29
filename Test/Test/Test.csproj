@@ -46,25 +46,85 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="About.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Creators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creators.Designer.cs">
+      <DependentUpon>Creators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWin.Designer.cs">
+      <DependentUpon>MainWin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test3.Designer.cs">
+      <DependentUpon>Test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2.Designer.cs">
+      <DependentUpon>Test2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs">
+    <Compile Include="Test1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Test.Designer.cs">
-      <DependentUpon>Test.cs</DependentUpon>
+    <Compile Include="Test1.Designer.cs">
+      <DependentUpon>Test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test4.Designer.cs">
+      <DependentUpon>Test4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test5.Designer.cs">
+      <DependentUpon>Test5.cs</DependentUpon>
     </Compile>
     <Compile Include="Thame1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Theme2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creators.resx">
+      <DependentUpon>Creators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWin.resx">
+      <DependentUpon>MainWin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test3.resx">
+      <DependentUpon>Test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2.resx">
+      <DependentUpon>Test2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,9 +134,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Test.resx">
-      <DependentUpon>Test.cs</DependentUpon>
+    <EmbeddedResource Include="Test1.resx">
+      <DependentUpon>Test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test4.resx">
+      <DependentUpon>Test4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test5.resx">
+      <DependentUpon>Test5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Theme5.resx">
+      <DependentUpon>Theme5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,6 +160,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7kJiAnP0afU1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8Z8QuVb2QMQ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eP-AZOjxi5w.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
