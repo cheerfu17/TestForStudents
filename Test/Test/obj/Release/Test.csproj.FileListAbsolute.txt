@@ -1,0 +1,17 @@
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Release\Test.exe.config
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Release\Test.exe
+D:\Project\C#\TestForStudents-main\Test\Test\bin\Release\Test.pdb
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Test3.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Test2.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Properties.Resources.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Test1.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Test4.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Test5.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.csproj.GenerateResource.cache
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.exe
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.pdb
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.About.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Creators.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.MainWin.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.Theme5.resources
+D:\Project\C#\TestForStudents-main\Test\Test\obj\Release\Test.csprojAssemblyReference.cache
